@@ -1,0 +1,72 @@
+{
+  "name": "gor-commit",
+  "version": "0.0.0",
+  "description": "Commitizen for Gorila projects :gorila-horns:",
+  "homepage": "",
+  "author": {
+    "name": "Guilherme Gois",
+    "email": "",
+    "url": "gois.dev"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    ""
+  ],
+  "bin": "./lib/index.js",
+  "dependencies": {
+    "@endemolshinegroup/cz-jira-smart-commit": "^1.3.1",
+    "commitizen": "^2.7.6"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.5",
+    "eslint": "^6.0.1",
+    "prettier": "^1.18.2",
+    "husky": "^3.0.1",
+    "lint-staged": "^9.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-config-xo": "^0.26.0",
+    "jest": "^24.8.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "xo",
+      "prettier"
+    ],
+    "env": {
+      "jest": true,
+      "node": true
+    },
+    "rules": {
+      "prettier/prettier": "error"
+    },
+    "plugins": [
+      "prettier"
+    ]
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest"
+  },
+  "repository": "guilhermejcgois/gor-commit",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "MIT"
+}
