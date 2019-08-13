@@ -8,6 +8,8 @@ jobs:
   include:
     - stage: release
       node_js: lts/*
+      on:
+        branches: release
       deploy:
         provider: script
         skip_cleanup: true
