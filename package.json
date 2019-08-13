@@ -29,7 +29,8 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-config-xo": "^0.26.0",
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "semantic-release": "^15.13.19"
   },
   "engines": {
     "npm": ">= 4.0.0"
@@ -62,7 +63,8 @@
   },
   "scripts": {
     "pretest": "eslint .",
-    "test": "jest"
+    "test": "jest",
+    "semantic-release": "semantic-release"
   },
   "repository": "guilhermejcgois/gor-commit",
   "jest": {
