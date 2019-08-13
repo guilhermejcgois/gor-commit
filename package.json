@@ -63,7 +63,7 @@
   },
   "scripts": {
     "pretest": "eslint .",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "semantic-release": "semantic-release"
   },
   "repository": "guilhermejcgois/gor-commit",
