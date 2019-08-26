@@ -12,7 +12,7 @@ $ npm install -g gor-commit
 
 To get a list of options for scope step, create a `.czrc` file in the repository's root. A sample is provided under `/lib/sample.rc`.
 
-For more information about scopes, take a look at (cz-jira-smart-commit repository)[https://github.com/EndemolShineGroup/cz-jira-smart-commit].
+For more information about scopes, take a look at [cz-jira-smart-commit repository](https://github.com/EndemolShineGroup/cz-jira-smart-commit).
 
 ## Usage
 
