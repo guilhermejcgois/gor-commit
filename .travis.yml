@@ -11,9 +11,9 @@ branches:
 
 jobs:
   include:
+    - if: branch = next
     - stage: release
       node_js: lts/*
-      if: branch = next
       deploy:
         provider: script
         skip_cleanup: true
