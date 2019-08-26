@@ -8,6 +8,12 @@
 $ npm install -g gor-commit
 ```
 
+## Repository configuration
+
+To get a list of options for scope step, create a `.czrc` file in the repository's root. A sample is provided under `/lib/sample.rc`.
+
+For more information about scopes, take a look at (cz-jira-smart-commit repository)[https://github.com/EndemolShineGroup/cz-jira-smart-commit].
+
 ## Usage
 
 Just use `gor-commit` instead regular `git-commit` command.
@@ -16,7 +22,7 @@ Just use `gor-commit` instead regular `git-commit` command.
 
 ### Retrying last failed commit attempt
 
-If for some reasons the last attempt to go a commit using `gor-commit` was failed, you don't need to answer again 
+If for some reasons the last attempt to go a commit using `gor-commit` was failed, you don't need to answer again
 
 all the questions. Use the `--retry` flag.
 
