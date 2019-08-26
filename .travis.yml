@@ -2,7 +2,12 @@ language: node_js
 
 node_js:
   - 10
-  - 8
+
+branches:
+  only:
+    - master
+    - next
+    - /^greenkeeper.*$/
 
 jobs:
   include:
