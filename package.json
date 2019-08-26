@@ -70,5 +70,8 @@
   "jest": {
     "testEnvironment": "node"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "tag": "next"
+  }
 }

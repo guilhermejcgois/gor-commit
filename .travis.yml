@@ -6,12 +6,10 @@ node_js:
 branches:
   only:
     - master
-    - next
     - /^greenkeeper.*$/
 
 jobs:
   include:
-    - if: branch = next
     - stage: release
       node_js: lts/*
       deploy:
