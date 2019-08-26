@@ -1,4 +1,5 @@
 # gor-commit [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+
 > Commitizen for Gorila projects :gorila-horns:
 
 ## Installation
@@ -11,10 +12,21 @@ $ npm install -g gor-commit
 
 Just use `gor-commit` instead regular `git-commit` command.
 
+## Tips
+
+### Retrying last failed commit attempt
+
+If for some reasons the last attempt to go a commit using `gor-commit` was failed, you don't need to answer again 
+
+all the questions. Use the `--retry` flag.
+
+### Skipping hooks
+
+If you **really need** to skip `pre-commit` and `commit-msg` hooks, just use `--no-verify` flag.
+
 ## License
 
 MIT © [Guilherme Gois](gois.dev)
-
 
 [npm-image]: https://badge.fury.io/js/gor-commit.svg
 [npm-url]: https://npmjs.org/package/gor-commit
