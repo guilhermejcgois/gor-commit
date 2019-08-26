@@ -1,5 +1,7 @@
 # gor-commit [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/guilhermejcgois/gor-commit.svg)](https://greenkeeper.io/)
+
 > Commitizen for Gorila projects :gorila-horns:
 
 ## Installation
